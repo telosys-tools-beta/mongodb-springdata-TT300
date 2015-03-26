@@ -4,6 +4,7 @@ MongoDB width Spring Data
 # Todo List
 Done :
 * Generate basic classes for Spring Data for MongoDB
+* Generated tests run sucessfully
 
 Todo :
 * Manage embedded entities
