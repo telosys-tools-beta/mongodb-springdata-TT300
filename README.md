@@ -131,6 +131,7 @@ public class Employee implements Serializable
 }
 ```
 
+#### Country.java
 ```java
 /*
  * Java bean class
@@ -219,6 +220,7 @@ public class Country implements Serializable
 
 ### MongoDB Spring Data Repositories
 
+#### EmployeeRepository.java
 ```java
 /*
 * Java bean class
@@ -247,6 +249,7 @@ public interface EmployeeRepository extends PagingAndSortingRepository<Employee,
 }
 ```
 
+#### CountryRepository.java
 ```java
 /*
 * Java bean class
@@ -276,6 +279,7 @@ public interface CountryRepository extends PagingAndSortingRepository<Country, S
 
 ### Tests
 
+#### EmployeeRepositoryTest.java
 ```java
 /*
 * Java bean class
@@ -395,6 +399,7 @@ public class EmployeeRepositoryTest
 }
 ```
 
+#### CountryRepositoryTest.java
 ```java
 /*
 * Java bean class
