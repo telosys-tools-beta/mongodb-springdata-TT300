@@ -1,6 +1,13 @@
 # mongodb-springdata-TT300
 MongoDB width Spring Data
 
+# Todo List
+Done :
+* Generate basic classes for Spring Data for MongoDB
+
+Todo :
+* Manage embedded entities
+
 # Sample
 
 ## Model (Telosys DSL)
