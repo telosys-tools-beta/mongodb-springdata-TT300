@@ -5,14 +5,16 @@ MongoDB width Spring Data
 
 ## Model (Telosys DSL)
 
-```js
+```json
 Employee {
 	id : integer { @Id }; // the id
 	firstName : string ;
 	birthDate : date ;
 	country 
 }
+```
 
+```json
 Country {
     code: string { @Id };
     label: string ;
